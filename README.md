@@ -24,7 +24,7 @@ A PyTorch implementation of UNet for image segmentation tasks.This project inclu
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
+git clone https://github.com/ar080907/UNet-Semantic-Segmentation-Model
 cd UNet-Semantic-Segmentation-Model
 ```
 
