@@ -9,6 +9,7 @@ A PyTorch implementation of UNet for image segmentation tasks.This project inclu
  **Checkpoint Management** - Save and resume training with best model tracking  
  **Data Preprocessing** - Automatic train/validation split with image-mask pairing  
  **GPU Support** - CUDA acceleration when available
+ 
 
 ## Requirements
 
@@ -36,9 +37,9 @@ pip install torch torchvision Pillow tqdm
 
 ```
 ├── m2.py           # Dataset class for loading images and masks
-├── model.py        # UNet architecture definition
-├── datase.py       # DataLoader configuration
-├── train.py        # Training loop script
+├── model.py        # UNet architecture definition (core file)
+├── datase.py       # DataLoader configuration (data manipluation)
+├── train.py        # Training loop script (training script)
 ├── dice.py         # Dice coefficient metric
 ├── save.py         # Checkpoint saving utility
 ├── load.py         # Dataset preprocessing and splitting
