@@ -1,4 +1,4 @@
-# UNet-Semantic-Segmentation-Model-
+# UNet-Semantic-Segmentation-Model
 A PyTorch implementation of UNet for image segmentation tasks.This project includes complete training, validation, and checkpoint management for semantic segmentation.
 
 ## Features
